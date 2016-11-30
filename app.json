@@ -1,0 +1,18 @@
+{
+  "name": "demo-heroku-pipeline",
+  "description": "Generate app.json for review apps",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
