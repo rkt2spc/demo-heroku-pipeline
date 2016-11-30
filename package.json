@@ -1,0 +1,29 @@
+{
+  "name": "demo-heroku-pipeline",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.9.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rocketspacer@github.com/rocketspacer/demo-heroku-pipeline.git"
+  },
+  "author": "nmtuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocketspacer/demo-heroku-pipeline/issues"
+  },
+  "homepage": "https://github.com/rocketspacer/demo-heroku-pipeline#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
